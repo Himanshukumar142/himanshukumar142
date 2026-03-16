@@ -1,0 +1,18 @@
+```yaml
+name: Latest blog post workflow
+ 
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+ 
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://yourblog.dev/rss.xml"
+          max_post_count: 5
+```
