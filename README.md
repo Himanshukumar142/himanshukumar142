@@ -45,10 +45,9 @@
 ### 🌊 About Me
 
 ```yaml
-name:        "Your Name"
-located_in:  "San Francisco, CA"
-job_title:   "Senior Full-Stack Engineer @ [Company]"
-education:   "B.S. Computer Science — [University]"
+name:        "Himanshu Kumar"
+located_in:  "Muzaffarpur, Bihar"
+education:   "B.Tech Computer Science"
 
 stack:
   frontend:  [React, Next.js, TypeScript, TailwindCSS]
@@ -58,7 +57,7 @@ stack:
 
 currently_building:
   - "Real-time collaboration tool (like Figma for devs)"
-  - "OSS component library with 800+ GitHub stars"
+  - "OSS component library with 100+ GitHub stars"
 
 currently_learning:
   - "Rust for WebAssembly modules"
